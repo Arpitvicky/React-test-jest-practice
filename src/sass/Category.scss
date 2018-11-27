@@ -1,0 +1,14 @@
+.cat-list {
+    background: skyblue;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 1s ease;
+    transform: scale(1);
+    margin-bottom: 20px;
+
+    &:hover {
+        color: white;
+        background: black;
+        transform: scale(1.1);
+    }
+}

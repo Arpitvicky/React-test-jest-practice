@@ -1,0 +1,149 @@
+.add-sub-cat-btn {
+  color: black;
+}
+
+body {
+  background-color: #fff;
+  color: #000000;
+}
+
+a {
+  color:#000;
+}
+.list-container {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-control, input, textarea {
+  border: 1px solid #ccc !important;
+}
+
+.card-body {
+    padding: 15px 0;
+}
+
+.panel {
+  border:0;
+  background-color: #fff;
+}
+
+.modal-content {
+  background-color: #fff;
+}
+
+.fa-override {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.log_register_container {
+  margin-top: 15px;
+  width: 200px;
+  input {
+    width: 45%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+.half_price {
+  font-size: 10px;
+  display: block;
+  margin-top: 5px;
+  color: yellow;
+}    
+
+.admin_home {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+    li{
+      width: 40%;
+      min-height: 200px;
+      background: skyblue;
+      float: left;
+      margin: 20px;
+      position: relative;
+      transform: scale(1);
+      transition: all 1s ease;
+      border-radius: 20px;
+
+      &:hover {
+        transform: scale(1.1);
+        background: #000;
+        a {
+          color: white;
+        }
+      }
+      a {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 20px;
+        text-transform: uppercase;    
+        text-decoration: none;
+      }
+    }
+ }
+
+.mini-shopping-cart {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-right: 30px;
+  color: yellow;
+  span {
+    margin-top: 10px;
+    margin-left: -10px;
+    background: yellowgreen;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+ 
+.delete-product {
+  margin-left: 50%;
+  margin-top: -10px;
+  transform: translate(-48px, 0);
+}
+
+.product_list_checkout {
+  list-style-type: none;
+  float: left;
+  max-height: 550px;
+  overflow: scroll;
+  li {
+    margin-bottom: 20px;
+    float: left;
+    background: cadetblue;
+    border-radius: 10px;
+
+    picture {
+      width: 30%;
+      display: block;
+      float: left;
+      padding: 10px;
+
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    >div{
+      width: 70%;
+      float: left;
+      padding: 20px;
+    }
+  }
+}
+
+.total_amount {
+  float: left;
+  margin-left: 40px;
+  font-size: 40px;
+  padding: 10px;
+}
